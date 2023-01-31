@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        .vi{
+            margin-left: 38%;            
+            height: 300px;
+        }
+        button{
+            margin: 90px;
+        }
+        .buttons{
+            margin-left: 30%;
+        }
+        #st{
+            color: red;
+            margin-left: 235px;
+        }
+        #btn{
+            background-color: rgb(39, 187, 39);
+            padding: 20px;
+            border-radius: 90px;
+            cursor: pointer;
+        }
+        #st_btn{
+            background-color:red;
+            padding: 20px;
+            border-radius: 90px;
+            cursor: pointer;
+        }
+        p{
+            margin-left: 250px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        #check{
+            margin-left: 265px;
+            margin-top: 0px;
+            background-color:rgb(62, 205, 241);
+            padding: 20px;
+            border-radius: 90px;
+            cursor: pointer;
+        }
+        #check:hover{
+            color: aliceblue;
+        }
+        #st_btn:hover{
+            color: aliceblue;
+        }
+        #btn:hover{
+            color: aliceblue;
+        }
+        /* #nr{
+            visibility: hidden;
+        } */
+      
+    </style>
+</head>
+<body>
+    <!-- <h1 id="nr">{{na}}</h1>
+    <p>{{t1}}</p> -->
+    <video muted id="video" class="vi"autoplay></video><br>    
+    <div class="buttons">
+        <p id="st">Press Start to Record</p>
+        <p id="demo"></p>
+        <button id="btn">Start Recording</button>
+        <button id="st_btn">Stop Recording</button>
+        <form action="simple" class="fo">
+            <button id="check">Check Result</button>
+        </form>
+        
+    </div>       
+      
+    <script src="/static/fi.js"></script>
+</body>
+</html>

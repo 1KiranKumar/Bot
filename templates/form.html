@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fo{
+            margin-top: 15%;
+        }
+    </style>
+</head>
+<body>
+    <p id="err"></p>
+    <form action="{% url 'home' %}" method="post" align="center" class="fo" name="fo">
+        {% csrf_token %}
+       <h1> Enter your name:</h1><br>
+        <input type="text" id="form" name="name">
+        <button>Submit</button>
+    </form>
+    <script src="/static/fo.js"></script>
+</body>
+</html>
